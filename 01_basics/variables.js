@@ -42,7 +42,7 @@
 
 // console.log(booleanIsLogedIn);
 
-let somenumber = 234
+let somenumber = 234  //==> 234, string
 
 let stringNumber = String(somenumber)
 
