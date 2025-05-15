@@ -77,15 +77,49 @@
 // num1 = num2 = num3 =2+3  // ==> 5
 // console.log(num2);
 
-let gameCounter = 101  // ==> 101
-gameCounter++  // ==> 102
-++gameCounter  // ==> 102
-console.log(gameCounter); // ==> 103
+// let gameCounter = 101  // ==> 101
+// gameCounter++  // ==> 102
+// ++gameCounter  // ==> 102
+// console.log(gameCounter); // ==> 103
 
 
 
+// console.log(2 > 1);    // ==> true
+// console.log(2 >= 1);  // ==> true
+// console.log(2 < 1);  // ==> false
+// console.log(2 <= 1);  // ==> false
+// console.log(2 == 1);  // ==> false
+// console.log(2 != 1);  // ==> true
+// console.log(2 >! 1);  // ==> true
+
+// console.log("2">2);       // ==> false
+// console.log(2>"02");   // ==> false
 
 
+// console.log(null > 0);   // ==> false
+// console.log(null < 0);   // ==> false
+// console.log(null == 0);   // ==> false
+// console.log(null >= 0);   // ==> true
+// console.log(null <= 0);   // ==> true
 
+// NOTE //
+// The reason is that an equality check == and comparisons > < >= <= works differently.
+// Comparison converts "null" to a number, treating it as "0". thats why 
+// (3)null >= 0 is true and (1)null > 0 is false.// 
 
+// console.log(undefined > 0);   // ==> false
+// console.log(undefined < 0);  // ==> false
+// console.log(undefined == 0);  // ==> false
+// console.log(undefined >= 0);  // ==> false
+// console.log(undefined <= 0);  // ==> false
 
+// console.log(undefined > null);  // false
+// console.log(undefined < null);  // false
+// console.log(undefined == null);  // true
+// console.log(undefined >= null);  // false
+// console.log(undefined <= null);  // false
+ 
+
+console.log("2" === 2); // ==> false  // because "==="it checks datatype also.
+console.log("3"==="3"); // ==> true
+console.log(5 === 5);   // ==> true
