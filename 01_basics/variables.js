@@ -42,9 +42,50 @@
 
 // console.log(booleanIsLogedIn);
 
-let somenumber = 234  //==> 234, string
+// let somenumber = 234  //==> 234, string
 
-let stringNumber = String(somenumber)
+// let stringNumber = String(somenumber)
 
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+// let str1 = "Hello"
+// let str2 = " Abdulwassay"
+// let str3 = " Khan"
+
+// let str4 = str1 + str2 + str3 //  ==> Hello Abdulwassay Khan
+// console.log(str4);
+
+
+
+// console.log(2+2);  // ==> 4
+// console.log(2-2);  // ==> 0
+// console.log(2*2);  // ==> 4
+// console.log(2/2);  // ==> 1
+// console.log(2**3); // ==> 8
+// console.log(2%4);  // ==> 2
+
+// console.log(2+"2");    // ==> 22
+// console.log("2"+2);    // ==> 22
+// console.log("2"+2+2);  // ==> 222
+// console.log(2+2+"2");  // ==> 42
+
+// console.log((3+2)*5%(4/5)); // ==> 0.1999999999....
+
+
+// let num1,num2,num3
+// num1 = num2 = num3 =2+3  // ==> 5
+// console.log(num2);
+
+let gameCounter = 101  // ==> 101
+gameCounter++  // ==> 102
+++gameCounter  // ==> 102
+console.log(gameCounter); // ==> 103
+
+
+
+
+
+
+
+
