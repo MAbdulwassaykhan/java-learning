@@ -145,7 +145,7 @@ let userEmail;             // ==>  let userEmail = undefined
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
- console.log(id === anotherId);
+//  console.log(id === anotherId);
 
 const bigNumber = 12345678901083839n
 
@@ -175,4 +175,6 @@ console.log(typeof heros);
 console.log(typeof myObj);
 console.log(typeof score);
 console.log(typeof userEmail);
+console.log(typeof myFunction);
+
 
