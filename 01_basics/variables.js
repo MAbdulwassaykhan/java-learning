@@ -133,46 +133,46 @@
 
 // Premetive  // 
 
-// // 7 types : string , number , boolean , null , undefined , symbol , bigInt .//
+// 7 types : string , number , boolean , null , undefined , symbol , bigInt .//
 
-// const score = 200 
-// const scoreValue = 100.7
+const score = 200 
+const scoreValue = 100.7
 
-// const isLogedIn = false
-// const outsideTemp = null
-// let userEmail;             // ==>  let userEmail = undefined 
+const isLogedIn = false
+const outsideTemp = null
+let userEmail;             // ==>  let userEmail = undefined 
 
-// const id = Symbol('123')
-// const anotherId = Symbol('123')
+const id = Symbol('123')
+const anotherId = Symbol('123')
 
-//  console.log(id === anotherId);
+ console.log(id === anotherId);
 
-// const bigNumber = 12345678901083839n
+const bigNumber = 12345678901083839n
 
 
-// // Referance (non Premetive)  //
+// Referance (non Premetive)  //
 
-// // array, object, function .//
+// array, object, function .//
 
-// const heros = ["shakhtiman","nagraa","doga"];
+const heros = ["shakhtiman","nagraa","doga"];
 
-// let myObj ={
-//     name: "Ahmad",
-//     age: 22, 
-// }
+let myObj ={
+    name: "Ahmad",
+    age: 22, 
+}
 
-// const myFunction = function(){
+const myFunction = function(){
 
-//     console.log("hello world");
+    console.log("hello world");
     
-// }
+}
 
-// console.log(typeof scoreValue);
-// console.log(typeof isLogedIn);
-// console.log(typeof outsideTemp);
-// console.log(typeof bigNumber);
-// console.log(typeof heros);
-// console.log(typeof myObj);
-// console.log(typeof score);
-// console.log(typeof userEmail);
+console.log(typeof scoreValue);
+console.log(typeof isLogedIn);
+console.log(typeof outsideTemp);
+console.log(typeof bigNumber);
+console.log(typeof heros);
+console.log(typeof myObj);
+console.log(typeof score);
+console.log(typeof userEmail);
 
