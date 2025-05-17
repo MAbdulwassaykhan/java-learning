@@ -15,6 +15,8 @@
 
 // console.table([accountId,accountEmail,accountPassward,accountCity])
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
                                         // DATATYPE //
 
 // let score = 123  // ==> number
@@ -51,6 +53,8 @@
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
 
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
                                          // CONVERSION OPERATIONS //
 
 // let str1 = "Hello"
@@ -85,6 +89,9 @@
 // gameCounter++  // ==> 102
 // ++gameCounter  // ==> 102
 // console.log(gameCounter); // ==> 103
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
                                          // COMPARISON //
 
@@ -128,6 +135,7 @@
 // console.log("3"==="3"); // ==> true
 // console.log(5 === 5);   // ==> true
  
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
                                          // DATATYPE SUMMARY //
 
@@ -135,46 +143,75 @@
 
 // 7 types : string , number , boolean , null , undefined , symbol , bigInt .//
 
-const score = 200 
-const scoreValue = 100.7
+// const score = 200 
+// const scoreValue = 100.7
 
-const isLogedIn = false
-const outsideTemp = null
-let userEmail;             // ==>  let userEmail = undefined 
+// const isLogedIn = false
+// const outsideTemp = null
+// let userEmail;             // ==>  let userEmail = undefined 
 
-const id = Symbol('123')
-const anotherId = Symbol('123')
+// const id = Symbol('123')
+// const anotherId = Symbol('123')
 
-//  console.log(id === anotherId);
+// //  console.log(id === anotherId);
 
-const bigNumber = 12345678901083839n
+// const bigNumber = 12345678901083839n
 
 
-// Referance (non Premetive)  //
+// // Referance (non Premetive)  //
 
-// array, object, function .//
+// // array, object, function .//
 
-const heros = ["shakhtiman","nagraa","doga"];
+// const heros = ["shakhtiman","nagraa","doga"];
 
-let myObj ={
-    name: "Ahmad",
-    age: 22, 
-}
+// let myObj ={
+//     name: "Ahmad",
+//     age: 22, 
+// }
 
-const myFunction = function(){
+// const myFunction = function(){
 
-    console.log("hello world");
+//     console.log("hello world");
     
-}
+// }
 
-console.log(typeof scoreValue);
-console.log(typeof isLogedIn);
-console.log(typeof outsideTemp);
-console.log(typeof bigNumber);
-console.log(typeof heros);
-console.log(typeof myObj);
-console.log(typeof score);
-console.log(typeof userEmail);
-console.log(typeof myFunction);
+// console.log(typeof scoreValue);
+// console.log(typeof isLogedIn);
+// console.log(typeof outsideTemp);
+// console.log(typeof bigNumber);
+// console.log(typeof heros);
+// console.log(typeof myObj);
+// console.log(typeof score);
+// console.log(typeof userEmail);
+// console.log(typeof myFunction);
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+                                         // STACK & HEAP MEMORY //
+ 
+// stack (premetive) , heap (non-premetive)//
+
+
+let myName = "mabdulwassay"
+
+let anotherName = myName
+anotherName = "mkhan"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email : "mabdulwassay@mail",
+    upi : "user@done"
+}
+let userTwo = userOne
+userTwo.email = "mkhan@mail"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
 
 
