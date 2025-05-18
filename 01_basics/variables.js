@@ -194,23 +194,45 @@
 // stack (premetive) , heap (non-premetive)//
 
 
-let myName = "mabdulwassay"
+// let myName = "mabdulwassay"
 
-let anotherName = myName
-anotherName = "mkhan"
+// let anotherName = myName
+// anotherName = "mkhan"
 
-console.log(myName);
-console.log(anotherName);
+// console.log(myName);
+// console.log(anotherName);
 
-let userOne = {
-    email : "mabdulwassay@mail",
-    upi : "user@done"
-}
-let userTwo = userOne
-userTwo.email = "mkhan@mail"
+// let userOne = {
+//     email : "mabdulwassay@mail",
+//     upi : "user@done"
+// }
+// let userTwo = userOne
+// userTwo.email = "mkhan@mail"
 
-console.log(userOne.email);
-console.log(userTwo.email);
+// console.log(userOne.email);
+// console.log(userTwo.email);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                         // STRINGS //
+ 
+const name = "khan"
+const repoCount = 10
+const myAge = 23
+
+// console.log(name + repoCount + " Value"); //==> dont use this technique, this technique is old
+
+console.log(`My name is ${name} , my repocount is ${repoCount} and my age is ${myAge}`);//use this technique its advance technique.
+
+const gameName = new String('cricket')
+
+console.log(gameName[5]);      // ==> e 
+console.log(gameName.__proto__); //==> {}
+console.log(gameName.length);    //==> 7
+console.log(gameName.toUpperCase());  //==> CRICKET
+
+
+console.log(gameName.charAt(4));  // ==> k
+console.log(gameName.indexOf('t')); //==> 6
 
 
 
