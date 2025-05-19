@@ -215,28 +215,48 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                                          // STRINGS //
  
-const name = "khan"
-const repoCount = 10
-const myAge = 23
+// const name = "khan"
+// const repoCount = 10
+// const myAge = 23
 
 // console.log(name + repoCount + " Value"); //==> dont use this technique, this technique is old
 
-console.log(`My name is ${name} , my repocount is ${repoCount} and my age is ${myAge}`);//use this technique its advance technique.
+// console.log(`My name is ${name} , my repocount is ${repoCount} and my age is ${myAge}`);//use this technique its advance technique.
 
-const gameName = new String('cricket')
+// const gameName = new String('cricket-g-b')
 
-console.log(gameName[5]);      // ==> e 
-console.log(gameName.__proto__); //==> {}
-console.log(gameName.length);    //==> 7
-console.log(gameName.toUpperCase());  //==> CRICKET
+// console.log(gameName[5]);      // ==> e 
+// console.log(gameName.__proto__); //==> {}
+// console.log(gameName.length);    //==> 7
+// console.log(gameName.toUpperCase());  //==> CRICKET
 
 
-console.log(gameName.charAt(4));  // ==> k
-console.log(gameName.indexOf('t')); //==> 6
+// console.log(gameName.charAt(4));  // ==> k
+// console.log(gameName.indexOf('t')); //==> 6
 
+// const newString = gameName.substring(1,5)
+// console.log(newString);
+
+// const anotherString = gameName.slice(-3,7)
+// console.log(anotherString);
+
+// const newStringTwo = "    khan    "
+// console.log(newStringTwo);
+// console.log(newStringTwo.trim());
+
+// const url ="https://abdul.com/abdulwassay%20khan"
+// console.log(url.replace("%20","-"));
+// console.log(url.includes("muhammad"));
+
+// console.log(gameName.split(""));
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                         // NUMBER & MATHS //
+                                         
+const score = 1020
+
+const balance = new Number(300)
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
