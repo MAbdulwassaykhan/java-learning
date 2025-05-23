@@ -1,4 +1,5 @@
                                             //ARRAY//
+// Array part 1//
 
 const myArr = [0,1,2,3,4,5]
 const myHeros = ["thor","captain america","iron man"]
@@ -30,17 +31,26 @@ const numbers = new Array(1,2,3,4,5)
 
 
 
-console.log("original",myArr);   //==> this remains same.
+// console.log("original",myArr);   //==> this remains same.
 
-const myn1 =myArr.slice(1,4)    
-console.log(myn1);
-console.log("slice",myArr);      //==> it does not menipulate the array & remain same.
+// const myn1 =myArr.slice(1,4)    
+// console.log(myn1);
+// console.log("slice",myArr);      //==> it does not menipulate the array & remain same.
 
-const myn2 = myArr.splice(1,4)
-console.log(myn2);
-console.log("splice",myArr);     //==> it manipulate the array & cut the selected part from array.
+// const myn2 = myArr.splice(1,4)
+// console.log(myn2);
+// console.log("splice",myArr);     //==> it manipulate the array & cut the selected part from array.
 
 
+// Arrar part 2//
+
+const marvel_heros = ["Thor","Iranman","Spiderman"]
+const dc_heros = ["Superman","Flash","Batman"]
+
+marvel_heros.push(dc_heros) 
+console.log(marvel_heros);
+console.log(marvel_heros.length);
+console.log(marvel_heros[3][1]);
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
