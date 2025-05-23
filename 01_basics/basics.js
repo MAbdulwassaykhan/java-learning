@@ -281,15 +281,66 @@
 // console.log(Math.min(4,3,6,8));
 // console.log(Math.max(4,3,6,8));
 
-console.log(Math.random()+1);
-console.log((Math.random()*10)+1);
-console.log(Math.floor(Math.random()*10)+1);
+// console.log(Math.random()+1);
+// console.log((Math.random()*10)+1);
+// console.log(Math.floor(Math.random()*10)+1);
 
-const min = 10
-const max = 20
+// const min = 10
+// const max = 20
 
-console.log(Math.floor(Math.random()*(max - min + 1)) + min);
+// console.log(Math.floor(Math.random()*(max - min + 1)) + min);
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                         //DATES & TIME//
+
+let mydate = new Date()
+// console.log(mydate);
+// console.log(mydate.toString());
+// console.log(mydate.toDateString());
+// console.log(mydate.toLocaleString());
+// console.log(mydate.toISOString());
+// console.log(mydate.toJSON());
+// console.log(typeof mydate);
+
+
+// let myCreatedDate = new Date(2002,6,24,5,4,25)
+let myCreatedDate = new Date("2002-07-24")
+// console.log(myCreatedDate);
+// console.log(myCreatedDate.toDateString());
+// console.log(myCreatedDate.toLocaleString());
+
+let myTimeStamp = Date.now()
+// console.log(myTimeStamp);
+// console.log(myCreatedDate.getTime());
+// console.log(Math.floor(Date.now()/1000));
+
+let newDate = new Date()
+console.log(newDate.toDateString());
+console.log(newDate.getMonth()+1);
+console.log(newDate.getDay());
+console.log(newDate.getFullYear());
+console.log(newDate.getDate());
+
+// `${newDate.getDay()} and the time is`
+
+newDate.toLocaleString('default',{
+    weekday : "long"
+})
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
