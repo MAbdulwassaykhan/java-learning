@@ -79,10 +79,118 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                                             // OBJECTS //
 
+// Object part 1 //
+
+//Singleton
+//object.create
+
+
+// object literals
+
+// const mySym = Symbol("key1")
+
+// const JsUser = {
+//     name : "abdulwassay",
+//     "full name": "M.abdulwassay,khan",
+//     age : 23,
+//     location : "Multan",
+//     [mySym] : "mykey1",
+//     email : "abdulwassay@gmail.com",
+//     isLoggedIn : false,
+//     lastLoggedIn : ["Monday","Friday","Sunday"]
+// }
+
+// // console.log(JsUser.email);
+// // console.log(JsUser["email"]);
+// // console.log(JsUser["full name"]);
+// // console.log(JsUser[mySym]);
+
+// // JsUser.email = "abdulwassay@chatgpt"
+// // Object.freeze(JsUser)
+// // JsUser.name = "Khan1234"
+// // console.log(JsUser);
+
+// JsUser.greeting = function(){
+//     console.log("Hello Js User");  
+// };
+
+// JsUser.greetingTwo = function(){
+//     console.log(`Hello Js User, ${this.name}`);  
+// };
+// console.log(JsUser.greeting());
+// console.log(JsUser.greetingTwo());
 
 
 
-                                            
+//Object part 2 //
+
+
+
+const tinderUser = new Object()      // ==>this is singleton object 
+// const tinderUser = {}                   // ==> this is non-singleton object but both work like same  
+tinderUser.name ="Raza"
+tinderUser.id  ="abc123"
+tinderUser.email = "raza@gmail.com"
+tinderUser.age = 23
+tinderUser.isLoggedIn = false
+// console.log(tinderUser);
+
+
+const regularUser = {
+    fullname : {
+        userfullname :{
+            firstName : "Saim",
+            lastName : "raza",
+        }
+    }
+}
+// console.log(regularUser.fullname.userfullname.lastName);
+
+
+
+const obj1 = {1:"a",2:"b"}
+const obj2 = {3:"c",4:"d"}
+const obj3 = {5:"e",6:"f"}
+// console.log(obj1);
+// console.log(obj2);
+// console.log(obj1,obj2);                          // ==> this way is ok to write but not best to write.  
+// const obj4 = Object.assign({},obj1,obj2,obj3)    // ==> this way is ok to write but not best to write.
+const obj4 = {...obj1,...obj2,...obj3}              // ==> this way is the best way to write.
+// console.log(obj4);
+
+
+const users = [
+    {
+        id : 1,
+        email : "k@gmail.com"
+    },
+       {
+        id : 2,
+        email : "s@gmail.com"
+    },
+       {
+        id : 3,
+        email : "a@gmail.com"
+    },
+]
+users[1].email
+// console.log(users);
+// console.log(tinderUser);
+
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+console.log(tinderUser.hasOwnProperty('fullname'));
+
+
+// Object part3 //
+
+
+
+
+
+
+
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
