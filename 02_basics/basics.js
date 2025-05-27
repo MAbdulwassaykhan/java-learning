@@ -180,16 +180,33 @@ users[1].email
 // console.log(Object.keys(tinderUser));
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('fullname'));
+// console.log(tinderUser.hasOwnProperty('fullname'));
 
 
 // Object part3 //
 
+const course = {
+    coursename : "JAVASCRIPT",
+    price : "1099rs",
+    courseinstructure : "Abdulwassay"
+}
 
+// course.courseinstructure
+const {courseinstructure : instructure} = course
 
+console.log(instructure);
 
+// // const navbar = ({company}) =>{    --|
+// //                                     |}}
+// // }                                   | }}==> this is also used fo object destructuring in react.
+// //                                     |}}
+// // navbar (company = "Khan#123")     --|  
 
-
+// {
+//     "name" : "khan",
+//     "course" : "Javascript",      // ==> this is in jason formate.
+//     "price" : "free"
+// }
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
