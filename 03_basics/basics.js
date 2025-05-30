@@ -127,8 +127,68 @@
                                                      // THIS & ARROW FUNCTIONS //
 
 
+// const user = {
+//     username : "hassan",
+//     price : 889,
+
+//     welcomeMessage: function(){
+//         console.log(`${this.username} , welcome to website`);
+        // console.log(this); 
+//     }
+// }
+// user.welcomeMessage()
+// user.username="khan"
+// user.username="ali"
+// user.welcomeMessage()
+// console.log(this);
+
+// function chai(){
+//     let username = "khan"
+//     console.log(this.username); 
+// }
+
+// const chai = function(){
+//     let username = "khan"
+//     console.log(this.username);   
+// }
+
+// const chai = () => {
+//     let username = "khan"
+//     console.log(this.username);
+    
+// }
+// chai()
+
+// const addThree = (num1,num2,num3) =>{
+//     return num1 + num2 + num3 
+// }
+// const addThree = (num1,num2,num3) =>  num1 + num2 + num3
+// const addThree = (num1,num2,num3) =>  (num1 + num2 + num3) 
+// const addThree = (num1,num2,num3) => ({username : "khan"})
+// console.log(addThree(2,9,8))
 
 
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                            // IMMEDIATELY INVOKE FUNCTION EXPRESSION (IIFE) //
+
+
+// (function chai() {
+//     console.log(`DB connected`);
+    
+// })();
+
+// ( () => {
+//     console.log(`DB connected Two`);
+    
+// } )();
+
+// ( (name) => {
+//     console.log(`DB connected Two ${name}`);
+    
+// } )("khan")
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 
