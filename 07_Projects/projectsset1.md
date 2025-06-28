@@ -70,6 +70,7 @@ if(height === '' || height < 0 || isNaN(height)){
 })
 
 ```
+42:06 mint
 
 ## Project 3 Solution
 
