@@ -9,7 +9,7 @@
 
 ```javascript
 
-console.log("Hello Khan")
+// console.log("Hello Khan")
 const buttons = document.querySelectorAll('.button')
 const body = document.querySelector('body')
 
@@ -28,12 +28,6 @@ buttons.forEach(function (button) {
       body.style.backgroundColor = e.target.id
     }
     if(e.target.id === 'yellow'){
-      body.style.backgroundColor = e.target.id
-    }
-    if(e.target.id === 'purple'){
-      body.style.backgroundColor = e.target.id
-    }
-    if(e.target.id === 'orange'){
       body.style.backgroundColor = e.target.id
     }
   })
@@ -70,7 +64,6 @@ if(height === '' || height < 0 || isNaN(height)){
 })
 
 ```
-42:06 mint
 
 ## Project 3 Solution
 
@@ -119,25 +112,25 @@ if(playGame){
   })
 }
 
-function validateGuess(guess){
+function validateGuess(guess) {
   if(isNaN(guess)){
     alert('please enter valid number');
-  }else if(guess < 1){
+  } else if(guess < 1) {
     alert('please enter number greater then 1');
-  }else if(guess > 100){
+  } else if(guess > 100) {
     alert('please enter number less then 100');
-  }else{
+  } else {
     prevGuess.push(guess);
-    if(guess === 11){
+    if(numGuess === 11){
       displayGuess(guess);
       displayMessage(`Game over. Random guess is ${randomNumber}`);
       endgame();
     }else{
       displayGuess(guess);
       checkGuess(guess);
-    };
-  };
-};
+    }
+  }
+}
 
 function checkGuess(guess){
   if(guess === randomNumber){
@@ -178,7 +171,7 @@ function newGame(){
     randomNumber = parseInt(Math.random() * 100 + 1);
     prevGuess = [];
     numGuess = 1;
-    guessSlot = '';
+    guessSlot.innerHTML = '';
     remaining.innerHTML = `${11 - numGuess}`;
     userInput.removeAttribute('disabled');
     startOver.removeChild(p) ;
