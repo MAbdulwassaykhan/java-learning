@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Java learning 2 </h1>
+    <button id="Start">Start</button>
+    <button id="Stop">Stop</button>
+</body>
+<script>
+    const changeText = function(){
+        document.querySelector('h1').innerHTML = "java learning again"
+        console.log(changeText);
+    }
+
+     const start = document.querySelector('#Start').addEventListener('click',function(){
+        intervelId(changeText)
+        //    const intervalId = setInterval(changeText,1000,)
+    })
+    const intervalId = setInterval(changeText,1000 )
+
+    const stop = document.querySelector('#Stop').addEventListener('click',function(){
+        // stopId()
+        const stopId = clearInterval(intervalId)
+        
+    })
+    
+    //  const stopId = clearInterval(start.intervalId)
+     
+     
+</script>
+</html>
